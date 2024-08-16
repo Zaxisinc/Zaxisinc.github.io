@@ -1,0 +1,15 @@
+{
+    "name": "ZREG",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "boot_app0.bin", "offset": 57344 },
+          { "path": "ZREG.ino.bin", "offset": 65536 },
+          { "path": "ZREG.ino.bootloader.bin", "offset": 4096 },
+          { "path": "ZREG.ino.partitions.bin", "offset": 32768 }
+        ]
+      }
+    ]
+  }
